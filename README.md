@@ -266,6 +266,36 @@ The average freight cost associated with each order was **22.82**.
 
 ---
 
+---
+
+### 10. Which customer states generate the highest total revenue, and what are the top 5 states by revenue?
+
+```sql
+SELECT 
+    c.customer_state,
+    ROUND(SUM(oi.price), 2) AS total_revenue
+FROM customers c
+JOIN orders o 
+    ON o.customer_id = c.customer_id
+JOIN order_items oi 
+    ON o.order_id = oi.order_id
+GROUP BY c.customer_state
+ORDER BY total_revenue DESC
+LIMIT 5;
+
+**Output:**
+
+| customer_state | total_revenue |
+|----------------|--------------:|
+| SP             | 5202955.05    |
+| RJ             | 1824092.67    |
+| MG             | 1585308.03    |
+| RS             | 750304.02     |
+| PR             | 683083.76     |
+
+**Key Finding:**  
+São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de Janeiro (RJ) and Minas Gerais (MG) ranked second and third, with revenues of **1,824,092.67** and **1,585,308.03**, respectively. These three states generated considerably more revenue than the remaining states.
+
 ## Overall Key Findings
 
 * The dataset contains **99,441 orders**.
