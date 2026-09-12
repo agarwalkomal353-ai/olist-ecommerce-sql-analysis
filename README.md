@@ -282,6 +282,7 @@ JOIN order_items oi
 GROUP BY c.customer_state
 ORDER BY total_revenue DESC
 LIMIT 5;
+---
 
 **Output:**
 
