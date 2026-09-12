@@ -321,12 +321,9 @@ The SQL analysis was used to create an interactive Power BI dashboard for analyz
 ### Dashboard Preview
 ![Overview Dashboard ](Overview%20Dashboard.png)
 
-![Customer & Order Analysis Dashboard]
-(Customer%20%26%20Order5%20Analysis%20Dashboard.png)
+![Customer & Order Analysis Dashboard](Customer%20%26%20Order5%20Analysis%20Dashboard.png)
 
-![Product & Category Analysis Dashboard]
-(Product%20%26%20Category5%20Analysis%20Dashboard.png)
-
+![Product & Category Analysis Dashboard](Product%20%26%20Category5%20Analysis%20Dashboard.png)
 
 
 ## Tools Used
