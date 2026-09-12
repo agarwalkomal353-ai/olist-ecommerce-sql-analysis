@@ -350,4 +350,4 @@ The objective of this project is to use SQL to identify useful business insights
 **Komal Agarwal**
 
 Data Analytics Project
-Python • Pandas • Data Visualization • Exploratory Data Analysis
+SQL • MySQL • Power BI • E-Commerce Data Analysis • Business Insights
