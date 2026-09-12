@@ -319,16 +319,15 @@ São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de 
 The SQL analysis was used to create an interactive Power BI dashboard for analyzing orders, customers, products, revenue, delivery performance, and freight costs.
 
 ### Dashboard Preview
+![Overview Dashboard ](Overview%20Dashboard.png)
 
-Add your dashboard screenshot below:
+![Customer & Order Analysis Dashboard]
+(Customer%20%26%20Order5%20Analysis%20Dashboard.png)
 
-```markdown
-![Order and Customer Analysis](./PowerBI_Dashboard/Dashboard_Screenshots/Order_and_Customer_Analysis.png)
-```
+![Product & Category Analysis Dashboard]
+(Product%20%26%20Category5%20Analysis%20Dashboard.png)
 
-### Dashboard File
 
-The Power BI dashboard file is available in the `PowerBI_Dashboard` folder.
 
 ## Tools Used
 
