@@ -325,3 +325,15 @@ São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de 
 ## Project Objective
 
 The objective of this project is to use SQL to identify useful business insights from e-commerce data and understand customer behavior, product performance, revenue, delivery performance, and order operations.
+
+
+## Dashboard
+![Overview Dashboard](Overview%20Dashboard.png)
+
+![Customer & Order Analysis Dashboard]
+(Customer%20%26%20Order%20Analysis%20Dashboard.png)
+
+![Product & Category Analysis Dasboard]
+(Product%20%26%20Category%20Analysis%20Dashboard.png)
+
+
