@@ -1,8 +1,11 @@
+
 # Olist E-Commerce SQL Analysis Project
 
 ## Project Overview
 
 This project analyzes Olist e-commerce data using SQL. The main purpose is to understand order performance, product sales, customer behavior, revenue, delivery time, freight cost, and order status distribution.
+
+This project includes 25 business questions and their SQL-based analyses. This section presents 10 selected analyses from the complete project.
 
 The analysis was performed using MySQL and multiple related tables, including:
 
@@ -266,8 +269,6 @@ The average freight cost associated with each order was **22.82**.
 
 ---
 
----
-
 ### 10. Which customer states generate the highest total revenue, and what are the top 5 states by revenue?
 
 ```sql
@@ -282,22 +283,20 @@ JOIN order_items oi
 GROUP BY c.customer_state
 ORDER BY total_revenue DESC
 LIMIT 5;
----
+```
 
 **Output:**
 
-| customer_state | total_revenue |
-|----------------|--------------:|
-| SP             | 5202955.05    |
-| RJ             | 1824092.67    |
-| MG             | 1585308.03    |
-| RS             | 750304.02     |
-| PR             | 683083.76     |
+| Customer State | Total Revenue |
+| -------------- | ------------: |
+| SP             |  5,202,955.05 |
+| RJ             |  1,824,092.67 |
+| MG             |  1,585,308.03 |
+| RS             |    750,304.02 |
+| PR             |    683,083.76 |
 
-**Key Finding:**  
+**Key Finding:**
 São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de Janeiro (RJ) and Minas Gerais (MG) ranked second and third, with revenues of **1,824,092.67** and **1,585,308.03**, respectively. These three states generated considerably more revenue than the remaining states.
-
----
 
 ---
 
@@ -313,11 +312,29 @@ São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de 
 * The average delivery time was **12.50 days**.
 * **96,478 orders** were successfully delivered.
 * The average freight cost per order was **22.82**.
+* São Paulo generated the highest total revenue at **5,202,955.05**.
+
+## Power BI Dashboard
+
+The SQL analysis was used to create an interactive Power BI dashboard for analyzing orders, customers, products, revenue, delivery performance, and freight costs.
+
+### Dashboard Preview
+
+Add your dashboard screenshot below:
+
+```markdown
+![Order and Customer Analysis](./PowerBI_Dashboard/Dashboard_Screenshots/Order_and_Customer_Analysis.png)
+```
+
+### Dashboard File
+
+The Power BI dashboard file is available in the `PowerBI_Dashboard` folder.
 
 ## Tools Used
 
 * MySQL
 * SQL
+* Power BI
 * Joins
 * Aggregation Functions
 * `GROUP BY`
@@ -330,15 +347,3 @@ São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de 
 ## Project Objective
 
 The objective of this project is to use SQL to identify useful business insights from e-commerce data and understand customer behavior, product performance, revenue, delivery performance, and order operations.
-
-
-## Dashboard
-![Overview Dashboard](Overview%20Dashboard.png)
-
-![Customer & Order Analysis Dashboard]
-(Customer%20%26%20Order%20Analysis%20Dashboard.png)
-
-![Product & Category Analysis Dasboard]
-(Product%20%26%20Category%20Analysis%20Dashboard.png)
-
-
