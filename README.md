@@ -296,6 +296,10 @@ LIMIT 5;
 **Key Finding:**  
 São Paulo (SP) generated the highest total revenue of **5,202,955.05**. Rio de Janeiro (RJ) and Minas Gerais (MG) ranked second and third, with revenues of **1,824,092.67** and **1,585,308.03**, respectively. These three states generated considerably more revenue than the remaining states.
 
+---
+
+---
+
 ## Overall Key Findings
 
 * The dataset contains **99,441 orders**.
