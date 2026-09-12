@@ -343,3 +343,11 @@ The SQL analysis was used to create an interactive Power BI dashboard for analyz
 ## Project Objective
 
 The objective of this project is to use SQL to identify useful business insights from e-commerce data and understand customer behavior, product performance, revenue, delivery performance, and order operations.
+
+
+# 👩‍💻 Author
+
+**Komal Agarwal**
+
+Data Analytics Project
+Python • Pandas • Data Visualization • Exploratory Data Analysis
